@@ -9,3 +9,39 @@
 
 # rspec failure tracking
 .rspec_status
+
+# demo app
+# Ignore bundler config.
+/demo/.bundle
+
+# Ignore all logfiles and tempfiles.
+/demo/log/*
+/demo/tmp/*
+!/demo/log/.keep
+!/demo/tmp/.keep
+
+# Ignore pidfiles, but keep the directory.
+/demo/tmp/pids/*
+!/demo/tmp/pids/
+!/demo/tmp/pids/.keep
+
+# Ignore storage (uploaded files in development and any SQLite databases).
+/demo/storage/*
+!/demo/storage/.keep
+/demo/tmp/storage/*
+!/demo/tmp/storage/
+!/demo/tmp/storage/.keep
+
+/demo/public/assets
+
+# Ignore master key for decrypting credentials and more.
+/demo/config/master.key
+
+/demo/app/assets/builds/*
+!/demo/app/assets/builds/.keep
+
+# Simplecov
+/demo/coverage
+
+# Mac file
+**/.DS_Store
