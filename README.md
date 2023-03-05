@@ -4,6 +4,10 @@ TODO: Delete this and the text below, and describe your gem
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/json_flit`. To experiment with that code, run `bin/console` for an interactive prompt.
 
+I need a very flexible way to build layout on a page. I am learning Flutter, and came across [json_dynamic_widget](https://pub.dev/packages/json_dynamic_widget). Between this and [flit_view_components](https://github.com/afstanton/flit_view_components), this is my attempt to recreate that system for Rails.
+
+The .json files in the associated demo app are from [json_dynamic_widget](https://github.com/peiffer-innovations/json_dynamic_widget/tree/main/example/assets/pages), used under the MIT License.
+
 ## Installation
 
 TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
@@ -28,7 +32,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/json_flit.
+Bug reports and pull requests are welcome on GitHub at https://github.com/afstanton/json_flit.
 
 ## License
 
