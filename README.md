@@ -6,7 +6,7 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 I need a very flexible way to build layout on a page. I am learning Flutter, and came across [json_dynamic_widget](https://pub.dev/packages/json_dynamic_widget). Between this and [flit_view_components](https://github.com/afstanton/flit_view_components), this is my attempt to recreate that system for Rails.
 
-The .json files in the associated demo app are from [json_dynamic_widget](https://github.com/peiffer-innovations/json_dynamic_widget/tree/main/example/assets/pages), used under the MIT License.
+Almost all files in the associated demo app assets directory are from [json_dynamic_widget](https://github.com/peiffer-innovations/json_dynamic_widget/tree/main/example/assets/pages), used under the MIT License. They are used here to establish feature parity.
 
 ## Installation
 
