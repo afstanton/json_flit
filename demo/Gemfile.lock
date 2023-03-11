@@ -1,10 +1,10 @@
 GIT
   remote: https://github.com/afstanton/flit_view_components.git
-  revision: db094cf24bdaeb4468dea6724afe09e65f778a5b
+  revision: 739dbf1c71fcf3cd31681628be1baf2b20f68e91
   branch: main
   specs:
-    flit_view_components (0.0.1)
-      rails (>= 7.0.4.2)
+    flit_view_components (0.0.2)
+      view_component (~> 3.0.0rc3)
 
 GEM
   remote: https://rubygems.org/
@@ -93,7 +93,8 @@ GEM
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
-    json_flit (0.0.1)
+    json_flit (0.0.2)
+      flit_view_components
     loofah (2.19.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -173,6 +174,10 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    view_component (3.0.0.rc4)
+      activesupport (>= 5.2.0, < 8.0)
+      concurrent-ruby (~> 1.0)
+      method_source (~> 1.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
