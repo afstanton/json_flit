@@ -1,15 +1,15 @@
 GIT
   remote: https://github.com/afstanton/flit_view_components.git
-  revision: 739dbf1c71fcf3cd31681628be1baf2b20f68e91
+  revision: 533df306b6e848e350ee99463726e8c9f1ed19b8
   branch: main
   specs:
-    flit_view_components (0.0.2)
+    flit_view_components (0.0.3)
       view_component (~> 3.0.0rc3)
 
 PATH
   remote: ..
   specs:
-    json_flit (0.0.3)
+    json_flit (0.0.4)
       flit_view_components
 
 GEM
