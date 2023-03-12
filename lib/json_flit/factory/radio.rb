@@ -1,6 +1,6 @@
 module JsonFlit
   module Factory
-    class
+    class Radio
 
     end
   end

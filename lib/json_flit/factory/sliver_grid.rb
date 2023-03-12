@@ -1,6 +1,6 @@
 module JsonFlit
   module Factory
-    class
+    class SliverGrid
 
     end
   end

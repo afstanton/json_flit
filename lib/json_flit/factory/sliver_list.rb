@@ -1,6 +1,6 @@
 module JsonFlit
   module Factory
-    class
+    class SliverList
 
     end
   end

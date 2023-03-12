@@ -1,6 +1,6 @@
 module JsonFlit
   module Factory
-    class
+    class OverflowBox
 
     end
   end

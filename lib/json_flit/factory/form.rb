@@ -1,6 +1,6 @@
 module JsonFlit
   module Factory
-    class
+    class Form
 
     end
   end
