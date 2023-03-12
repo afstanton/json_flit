@@ -18,5 +18,9 @@ class WelcomeController < ApplicationController
       raise "Invalid data format"
     end
 
+    registry = JsonFlit::Registry.new
+    builder = JsonFlit::Builder.new(registry: registry, layout: @layout, data: @data)
+    @components = builder.build
+
   end
 end
