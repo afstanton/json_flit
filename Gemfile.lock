@@ -9,7 +9,7 @@ GIT
 PATH
   remote: .
   specs:
-    json_flit (0.0.3)
+    json_flit (0.0.4)
       flit_view_components
 
 GEM
