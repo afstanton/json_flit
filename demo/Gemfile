@@ -49,7 +49,7 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 # The whole point of this demo app is to test this gem
-gem 'json_flit'
+gem 'json_flit', path: '../'
 gem 'flit_view_components', github: 'afstanton/flit_view_components', branch: 'main'
 
 # For JSON

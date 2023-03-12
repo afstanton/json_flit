@@ -6,8 +6,20 @@ module JsonFlit
       @data = data
     end
 
-    def build
+    def build(layout: @layout)
+      builder = @registry.component(layout['type'])
+      component = builder.new(data: @data).build
+      if layout['children']
+        layout['children'].each do |child|
+          component.children << build(layout: child)
+        end
+      end
 
+      if layout['child']
+        component.child = build(layout: layout['child'])
+      end
+
+      component
     end
 
   end

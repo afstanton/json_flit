@@ -6,6 +6,12 @@ GIT
     flit_view_components (0.0.2)
       view_component (~> 3.0.0rc3)
 
+PATH
+  remote: ..
+  specs:
+    json_flit (0.0.3)
+      flit_view_components
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -93,8 +99,6 @@ GEM
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
-    json_flit (0.0.2)
-      flit_view_components
     loofah (2.19.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -197,7 +201,7 @@ DEPENDENCIES
   flit_view_components!
   importmap-rails
   jbuilder
-  json_flit
+  json_flit!
   multi_json
   oj
   propshaft

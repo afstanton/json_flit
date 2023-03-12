@@ -20,7 +20,7 @@ class WelcomeController < ApplicationController
 
     registry = JsonFlit::Registry.new
     builder = JsonFlit::Builder.new(registry: registry, layout: @layout, data: @data)
-    @components = builder.build
+    @component = builder.build
 
   end
 end
