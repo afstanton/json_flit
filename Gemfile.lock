@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/afstanton/flit_view_components.git
-  revision: 533df306b6e848e350ee99463726e8c9f1ed19b8
+  revision: 3026d028601ed74f31e948d2ce00cf1b75176b8b
   branch: main
   specs:
-    flit_view_components (0.0.3)
+    flit_view_components (0.0.4)
       view_component (~> 3.0.0rc3)
 
 PATH
@@ -15,7 +15,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.4.2)
+    activesupport (7.0.4.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -80,4 +80,4 @@ DEPENDENCIES
   rubocop (~> 1.21)
 
 BUNDLED WITH
-   2.4.7
+   2.4.8
