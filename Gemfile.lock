@@ -1,10 +1,10 @@
 GIT
   remote: https://github.com/afstanton/flit_view_components.git
-  revision: 3026d028601ed74f31e948d2ce00cf1b75176b8b
+  revision: e887cb0a3edd0e1357c87535c048ecf1d9c12c35
   branch: main
   specs:
     flit_view_components (0.0.4)
-      view_component (~> 3.0.0rc3)
+      view_component (~> 3.0.0rc5)
 
 PATH
   remote: .
@@ -64,7 +64,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.4.2)
-    view_component (3.0.0.rc4)
+    view_component (3.0.0.rc5)
       activesupport (>= 5.2.0, < 8.0)
       concurrent-ruby (~> 1.0)
       method_source (~> 1.0)
