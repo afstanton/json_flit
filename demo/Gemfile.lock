@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/afstanton/flit_view_components.git
-  revision: e887cb0a3edd0e1357c87535c048ecf1d9c12c35
+  revision: 59fbf8012421e595c94c75b322c588681753d7da
   branch: main
   specs:
-    flit_view_components (0.0.4)
+    flit_view_components (0.0.6)
       view_component (~> 3.0.0rc5)
 
 PATH
@@ -108,6 +108,8 @@ GEM
       net-pop
       net-smtp
     marcel (1.0.2)
+    material_flit (0.0.3)
+      flit_view_components
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.18.0)
@@ -202,6 +204,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   json_flit!
+  material_flit
   multi_json
   oj
   propshaft

@@ -52,6 +52,9 @@ gem "bootsnap", require: false
 gem 'json_flit', path: '../'
 gem 'flit_view_components', github: 'afstanton/flit_view_components', branch: 'main'
 
+# By default, Flutter uses Material Design.
+gem 'material_flit'
+
 # For JSON
 gem 'multi_json'
 gem 'oj'
