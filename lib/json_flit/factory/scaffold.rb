@@ -4,14 +4,19 @@ module JsonFlit
       def initialize(registry:, layout:, data:)
         args = layout['args']
 
-        @app_bar = JsonFlit::Builder.new(registry: registry, layout: args['appBar'], data: data)
-        @body = JsonFlit::Builder.new(registry: registry, layout: args['body'], data: data)
+        unless args['appBar'].nil?
+          @app_bar = JsonFlit::Builder.new(registry: registry, layout: args['appBar'], data: data)
+        end
+
+        unless args['body'].nil?
+          @body = JsonFlit::Builder.new(registry: registry, layout: args['body'], data: data)
+        end
       end
 
       def build
         Flit::ScaffoldComponent.new(
-          app_bar: @app_bar.build,
-          body: @body.build
+          app_bar: @app_bar.nil? ? nil : @app_bar.build,
+          body: @body.nil? ? nil : @body.build
         )
       end
     end
